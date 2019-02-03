@@ -7,5 +7,5 @@ RUN apt-get update && \
 
 COPY requirements.txt /opt
 
-RUN pip install -r requirements.txt
+RUN pip install -r /opt/requirements.txt
 
